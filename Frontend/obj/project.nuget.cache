@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "+TENrl7Afy4=",
+  "success": true,
+  "projectFilePath": "D:\\Git\\Repo\\property_manager_java\\Frontend\\Frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\11.0.0-rc.1.26425.128\\microsoft.extensions.caching.abstractions.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\11.0.0-rc.1.26425.128\\microsoft.extensions.caching.stackexchangeredis.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-rc.1.26425.128\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0-rc.1.26425.128\\microsoft.extensions.logging.abstractions.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-rc.1.26425.128\\microsoft.extensions.options.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-rc.1.26425.128\\microsoft.extensions.primitives.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\microsoft.typescript.msbuild\\7.0.1\\microsoft.typescript.msbuild.7.0.1.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\respite\\3.2.0\\respite.3.2.0.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\serilog\\4.4.1-dev-02447\\serilog.4.4.1-dev-02447.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\serilog.sinks.file\\8.0.0-nblumhardt-02322\\serilog.sinks.file.8.0.0-nblumhardt-02322.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\stackexchange.redis\\3.2.0\\stackexchange.redis.3.2.0.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0-rc.1.26425.128\\system.diagnostics.diagnosticsource.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\minhn\\.nuget\\packages\\system.io.hashing\\10.0.12\\system.io.hashing.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
