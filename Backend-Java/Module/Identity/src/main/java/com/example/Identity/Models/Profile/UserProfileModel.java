@@ -8,8 +8,11 @@ import com.example.Shared.Enum.ESystemUserGender;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -17,13 +20,17 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity 
-@Table(name = "user_profile")
+@Table(name = "user_profile", uniqueConstraints = @UniqueConstraint(
+        name = "idx_user_profile_account_id", columnNames = "user_profile_account_id"))
 @Getter 
 @Setter 
 @NoArgsConstructor 
 @AllArgsConstructor 
 @Builder 
 public class UserProfileModel {
+    public String getUserProfileId() {
+        return userProfileId;
+    }
     @Id
     @Column(name = "user_profile_id", nullable=false, length=12)
     private String userProfileId;
@@ -40,7 +47,8 @@ public class UserProfileModel {
     @Column(name = "user_profile_date_of_birth")
     private Date userProfileDateOfBirth;
 
-    @Column(name = "user_profile_gender", nullable=false)
+    @Enumerated(EnumType.STRING)
+    @Column(name = "user_profile_gender", nullable=false, length=20)
     private ESystemUserGender userProfileGender;
 
     @Column(name = "user_profile_phone_number", length=10)

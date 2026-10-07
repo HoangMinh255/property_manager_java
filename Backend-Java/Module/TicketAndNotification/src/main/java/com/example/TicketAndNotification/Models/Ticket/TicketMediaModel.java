@@ -25,7 +25,7 @@ public class TicketMediaModel {
     private UUID ticketMediaId;
 
     @Column(name = "ticket_media_ticket_id", nullable = false)
-    private UUID ticketMediaticketId;
+    private UUID ticketMediaTicketId;
 
     @Column(name = "ticket_media_image_url", nullable = false, length = 255)
     private String ticketMediaImageUrl;

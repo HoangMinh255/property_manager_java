@@ -6,7 +6,7 @@ import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Embedded;
+import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -24,7 +24,7 @@ import lombok.Setter;
 @AllArgsConstructor 
 @Builder 
 public class RolePermissionModel implements Serializable{
-    @Embedded
+    @EmbeddedId
     private RolePermissionModelId id;
 
     @Column(name = "assigned_at")

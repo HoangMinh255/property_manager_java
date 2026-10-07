@@ -7,6 +7,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -14,7 +15,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity 
-@Table(name = "permission")
+@Table(name = "permission", uniqueConstraints = {
+        @UniqueConstraint(name = "idx_permission_code", columnNames = "permission_code"),
+        @UniqueConstraint(name = "idx_permission_name", columnNames = "permission_name")
+})
 @Getter 
 @Setter 
 @NoArgsConstructor 

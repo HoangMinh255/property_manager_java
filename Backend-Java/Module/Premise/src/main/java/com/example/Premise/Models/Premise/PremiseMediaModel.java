@@ -26,7 +26,7 @@ public class PremiseMediaModel {
     private int premiseMediaId;
 
     @Column(name = "premise_media_premise_id", nullable = false)
-    private UUID premiseMediapremiseId;
+    private UUID premiseMediaPremiseId;
 
     @Column(name = "premise_media_image_url", nullable = false, length = 255)
     private String premiseMediaImageUrl;

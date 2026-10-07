@@ -25,6 +25,10 @@ import lombok.Setter;
 @AllArgsConstructor 
 @Builder 
 public class NotificationModel {
+    public void setNotificationId(UUID notificationId) {
+        this.notificationId = notificationId;
+    }
+
     @Id 
     @Column(name = "notification_id", nullable = false)
     private UUID notificationId;

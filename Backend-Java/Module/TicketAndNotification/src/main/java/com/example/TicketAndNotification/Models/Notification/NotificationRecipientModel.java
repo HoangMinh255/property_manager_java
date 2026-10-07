@@ -37,6 +37,6 @@ public class NotificationRecipientModel implements Serializable {
         @Column(name = "nr_notification_id", nullable = false)
         private UUID notificationId;
         @Column(name = "nr_account_id", nullable = false)
-        private String accountId;
+        private UUID accountId;
     }
 }

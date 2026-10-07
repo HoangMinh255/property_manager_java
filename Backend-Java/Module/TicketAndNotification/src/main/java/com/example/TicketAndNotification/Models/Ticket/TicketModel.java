@@ -25,6 +25,10 @@ import lombok.Setter;
 @AllArgsConstructor 
 @Builder 
 public class TicketModel {
+    public void setTicketId(UUID ticketId) {
+        this.ticketId = ticketId;
+    }
+
     @Id 
     @Column(name = "ticket_id", nullable = false)
     private UUID ticketId;
@@ -36,7 +40,7 @@ public class TicketModel {
     private String ticketContent;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "ticket_type ", nullable = false)
+    @Column(name = "ticket_type", nullable = false)
     private ETicketType ticketType;
 
     @Column(name = "ticket_is_resolved", nullable = false)

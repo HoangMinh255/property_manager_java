@@ -7,6 +7,8 @@ import com.example.Shared.Enum.EPremiseStatus;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -23,6 +25,10 @@ import lombok.Setter;
 @AllArgsConstructor 
 @Builder
 public class PremiseModel {
+    public void setPremiseId(UUID premiseId) {
+        this.premiseId = premiseId;
+    }
+
     @Id 
     @Column(name = "premise_id", nullable = false)
     private UUID premiseId;
@@ -33,7 +39,8 @@ public class PremiseModel {
     @Column(name = "premise_location_id", nullable = false)
     private UUID premiseLocationId;
 
-    @Column(name = "premise_status", nullable = false)
+    @Enumerated(EnumType.STRING)
+    @Column(name = "premise_status", nullable = false, length = 20)
     private EPremiseStatus premiseStatus;
 
     @Column(name = "premise_position", nullable = false)
